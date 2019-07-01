@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Medium Challenge</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="logo">
+            <a href="index.html">
+            <p id="weekly-challenge" href="index">Weekly Challenges</p>
+            </a>
+        </div>
+
+        <!--form-->
+       <form action="medium.html" method="GET">
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="user_name" >
+            <label for="surname">Last Name:</label>
+        <input type="text" id="surname" name="user_surname">
+        
+        <label class="selectors">Gender:</label>
+            <input type="radio" id="female" name="user_gender">
+                <label for="female">Female</label>
+            <input type="radio" id="male" name="user_gender">
+                <label for="male">Male</label>
+            <input type="radio" id="prefer_not_to_say" name="user_gender">
+                <label for="prefer_not_to_say">Prefer Not to Say</label>
+                
+            
+        <div class="select"> 
+            <label for="sports">Sports:</label>
+            <select id="sports" name="user_sport" class="select-box">
+                <option value="baseball">Baseball</option>
+                <option value="soccer">Soccer</option>
+                <option value="football">Football</option>
+                <option value="tennis">Tennis</option>
+                <option value="hateSports">I Hate Sports</option>
+            </select>
+        </div>
+        
+        <label class="selectors">Pizza Toppings:</label>
+            <input type="checkbox" id="cheese" value="pizza_cheese" name="user_topping"><label for="cheese">pineapple</label>
+            <input type="checkbox" id="pineapple" value="pizza_pineapple" name="user_topping"><label for="pineapple">cheese</label>
+            <input type="checkbox" id="pepporoni" value="pizza_pepporoni" name="user_topping"><label for="pepperoni">pepporoni</label>
+            <input type="checkbox" id="bacon" value="pizza_bacon" name="user_topping"><label for="bacon">bacon</label>
+            <input type="checkbox" id="gummi_bears" value="pizza_gummi_bears" name="user_topping"><label for="gummi_bears">gummi bears</label>
+    
+        <button type="submit">Save</button>
+    </body>
+</html>
